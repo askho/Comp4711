@@ -14,20 +14,24 @@
 		  <thead>
 			 <tr>
 				<th>Name</th>
-				<th>Division</th>
 				<th>Wins</th>
 				<th>Losses</th>
 				<th>Ties</th>
+				<th>Points For</th>
+				<th>Points Against</th>
+				<th>Net Points</th>
 			 </tr>
 		  </thead>
 		  <tbody>
 			 {AFCteam}
 			 <tr>
 				<td>{TeamName}</td>
-				<td>{Division}</td>
 				<td>{Win}</td>
 				<td>{Loss}</td>
 				<td>{Tie}</td>
+				<td>{PF}</td>
+				<td>{PA}</td>
+				<td>{NetPts}</td>
 			 </tr>
 			 {/AFCteam}
 		  </tbody>
@@ -40,20 +44,24 @@
 		  <thead>
 			 <tr>
 				<th>Name</th>
-				<th>Division</th>
 				<th>Wins</th>
 				<th>Losses</th>
 				<th>Ties</th>
+				<th>Points For</th>
+				<th>Points Against</th>
+				<th>Net Points</th>
 			 </tr>
 		  </thead>
 		  <tbody>
 			 {NFCteam}
 			 <tr>
 				<td>{TeamName}</td>
-				<td>{Division}</td>
 				<td>{Win}</td>
 				<td>{Loss}</td>
 				<td>{Tie}</td>
+				<td>{PF}</td>
+				<td>{PA}</td>
+				<td>{NetPts}</td>
 			 </tr>
 			 {/NFCteam}
 		  </tbody>

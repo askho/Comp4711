@@ -12,20 +12,24 @@
 	  <thead>
 		 <tr>
 			<th>AFC East Team</th>
-			<th>Division</th>
 			<th>Wins</th>
 			<th>Losses</th>
 			<th>Ties</th>
+			<th>Points For</th>
+			<th>Points Against</th>
+			<th>Net Points</th>
 		 </tr>
 	  </thead>
 	  <tbody>
 		 {AFCEast}
 		 <tr>
 			<td>{TeamName}</td>
-			<td>{Division}</td>
 			<td>{Win}</td>
 			<td>{Loss}</td>
 			<td>{Tie}</td>
+			<td>{PF}</td>
+			<td>{PA}</td>
+			<td>{NetPts}</td>
 		 </tr>
 		 {/AFCEast}
 	  </tbody>
@@ -35,20 +39,24 @@
 	  <thead>
 		 <tr>
 			<th>AFC North Team</th>
-			<th>Division</th>
 			<th>Wins</th>
 			<th>Losses</th>
 			<th>Ties</th>
+			<th>Points For</th>
+			<th>Points Against</th>
+			<th>Net Points</th>
 		 </tr>
 	  </thead>
 	  <tbody>
 		 {AFCNorth}
 		 <tr>
 			<td>{TeamName}</td>
-			<td>{Division}</td>
 			<td>{Win}</td>
 			<td>{Loss}</td>
 			<td>{Tie}</td>
+			<td>{PF}</td>
+			<td>{PA}</td>
+			<td>{NetPts}</td>
 		 </tr>
 		 {/AFCNorth}
 	  </tbody>
@@ -58,20 +66,24 @@
 	  <thead>
 		 <tr>
 			<th>AFC South Team</th>
-			<th>Division</th>
 			<th>Wins</th>
 			<th>Losses</th>
 			<th>Ties</th>
+			<th>Points For</th>
+			<th>Points Against</th>
+			<th>Net Points</th>
 		 </tr>
 	  </thead>
 	  <tbody>
 		 {AFCSouth}
 		 <tr>
 			<td>{TeamName}</td>
-			<td>{Division}</td>
 			<td>{Win}</td>
 			<td>{Loss}</td>
 			<td>{Tie}</td>
+			<td>{PF}</td>
+			<td>{PA}</td>
+			<td>{NetPts}</td>
 		 </tr>
 		 {/AFCSouth}
 	  </tbody>
@@ -81,20 +93,24 @@
 	  <thead>
 		 <tr>
 			<th>AFC West Team</th>
-			<th>Division</th>
 			<th>Wins</th>
 			<th>Losses</th>
 			<th>Ties</th>
+			<th>Points For</th>
+			<th>Points Against</th>
+			<th>Net Points</th>
 		 </tr>
 	  </thead>
 	  <tbody>
 		 {AFCWest}
 		 <tr>
 			<td>{TeamName}</td>
-			<td>{Division}</td>
 			<td>{Win}</td>
 			<td>{Loss}</td>
 			<td>{Tie}</td>
+			<td>{PF}</td>
+			<td>{PA}</td>
+			<td>{NetPts}</td>
 		 </tr>
 		 {/AFCWest}
 	  </tbody>
@@ -104,20 +120,24 @@
 	  <thead>
 		 <tr>
 			<th>NFC East Team</th>
-			<th>Division</th>
 			<th>Wins</th>
 			<th>Losses</th>
 			<th>Ties</th>
+			<th>Points For</th>
+			<th>Points Against</th>
+			<th>Net Points</th>
 		 </tr>
 	  </thead>
 	  <tbody>
 		 {NFCEast}
 		 <tr>
 			<td>{TeamName}</td>
-			<td>{Division}</td>
 			<td>{Win}</td>
 			<td>{Loss}</td>
 			<td>{Tie}</td>
+			<td>{PF}</td>
+			<td>{PA}</td>
+			<td>{NetPts}</td>
 		 </tr>
 		 {/NFCEast}
 	  </tbody>
@@ -127,20 +147,24 @@
 	  <thead>
 		 <tr>
 			<th>NFC North Team</th>
-			<th>Division</th>
 			<th>Wins</th>
 			<th>Losses</th>
 			<th>Ties</th>
+			<th>Points For</th>
+			<th>Points Against</th>
+			<th>Net Points</th>
 		 </tr>
 	  </thead>
 	  <tbody>
 		 {NFCNorth}
 		 <tr>
 			<td>{TeamName}</td>
-			<td>{Division}</td>
 			<td>{Win}</td>
 			<td>{Loss}</td>
 			<td>{Tie}</td>
+			<td>{PF}</td>
+			<td>{PA}</td>
+			<td>{NetPts}</td>
 		 </tr>
 		 {/NFCNorth}
 	  </tbody>
@@ -150,20 +174,24 @@
 	  <thead>
 		 <tr>
 			<th>NFC South Team</th>
-			<th>Division</th>
 			<th>Wins</th>
 			<th>Losses</th>
 			<th>Ties</th>
+			<th>Points For</th>
+			<th>Points Against</th>
+			<th>Net Points</th>
 		 </tr>
 	  </thead>
 	  <tbody>
 		 {NFCSouth}
 		 <tr>
 			<td>{TeamName}</td>
-			<td>{Division}</td>
 			<td>{Win}</td>
 			<td>{Loss}</td>
 			<td>{Tie}</td>
+			<td>{PF}</td>
+			<td>{PA}</td>
+			<td>{NetPts}</td>
 		 </tr>
 		 {/NFCSouth}
 	  </tbody>
@@ -173,20 +201,24 @@
 	  <thead>
 		 <tr>
 			<th>NFC West Team</th>
-			<th>Division</th>
 			<th>Wins</th>
 			<th>Losses</th>
 			<th>Ties</th>
+			<th>Points For</th>
+			<th>Points Against</th>
+			<th>Net Points</th>
 		 </tr>
 	  </thead>
 	  <tbody>
 		 {NFCWest}
 		 <tr>
 			<td>{TeamName}</td>
-			<td>{Division}</td>
 			<td>{Win}</td>
 			<td>{Loss}</td>
 			<td>{Tie}</td>
+			<td>{PF}</td>
+			<td>{PA}</td>
+			<td>{NetPts}</td>
 		 </tr>
 		 {/NFCWest}
 	  </tbody>

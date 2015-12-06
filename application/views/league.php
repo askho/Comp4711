@@ -14,8 +14,9 @@
             <th>Wins</th>
             <th>Losses</th>
             <th>Ties</th>
-            <th>Conf</th>
-            <th>Division</th>
+            <th>Points For</th>
+            <th>Points Against</th>
+            <th>Net Point</th>
          </tr>
       </thead>
       <tbody>
@@ -28,8 +29,9 @@
             <td>{Win}</td>
             <td>{Loss}</td>
             <td>{Tie}</td>
-            <td>{Conf}</td>
-            <td>{Division}</td>
+            <td>{PF}</td>
+            <td>{PA}</td>
+            <td>{NetPts}</td>
          </tr>
          {/teams}
       </tbody>
